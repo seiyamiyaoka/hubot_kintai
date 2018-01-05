@@ -63,6 +63,7 @@ function set_atwork(name, data) {
   myAtWork.content = data.content
   myAtWork.datetime = data.datetime
   currentUser.atWork.push(myAtWork)
+
 }
 
 function set_leavework(name, data) {
@@ -72,6 +73,7 @@ function set_leavework(name, data) {
   myLeaveWork.content = data.content
   myLeaveWork.datetime = data.datetime
   currentUser.leaveWork.push(myLeaveWork)
+
 }
 
 function show_kintai(name) {
