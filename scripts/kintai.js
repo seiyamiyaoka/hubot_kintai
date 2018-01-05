@@ -9,7 +9,7 @@
 'use strict'
 
 require('date-utils');
-const kintai = require('kintai')
+const kintai = require('./index.js')
 
 module.exports = (robot) => {
   // user登録
